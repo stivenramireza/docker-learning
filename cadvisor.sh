@@ -1,6 +1,5 @@
 #!/bin/bash
-# Runs Cadvisor Monitoring tool for Docker Containers
-VERSION=v0.37.0 # use the latest release version from https://github.com/google/cadvisor/releases
+VERSION=v0.37.0
 sudo docker run \
   --volume=/:/rootfs:ro \
   --volume=/var/run:/var/run:ro \
