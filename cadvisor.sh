@@ -1,4 +1,3 @@
-#!/bin/bash
 VERSION=v0.37.0
 sudo docker run \
   --volume=/:/rootfs:ro \
